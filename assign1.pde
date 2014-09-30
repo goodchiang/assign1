@@ -57,13 +57,15 @@ void draw() {
       // -------------------------------------------------
       // put your code inside here
       
-     
-      
-      a = random(6);
-      b = random(6);
-      c = random(6);
+      allSeven = machine.probability(0.9);
       
       totalScore = totalScore - 50;
+      
+      a = random(6)*allSeven;
+      b = random(6)*allSeven;
+      c = random(6)*allSeven;
+      
+       
       
       machine.setSlotFruit(0,int(a));
       machine.setSlotFruit(1,int(b));
