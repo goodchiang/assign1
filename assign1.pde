@@ -57,11 +57,11 @@ void draw() {
       // -------------------------------------------------
       // put your code inside here
       
-      allSeven = machine.probability(0.9);
+     
       
-      a = random(5) +allSeven;
-      b = random(5) +allSeven;
-      c = random(5) +allSeven;
+      a = random(6);
+      b = random(6);
+      c = random(6);
       
       totalScore = totalScore - 50;
       
